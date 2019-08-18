@@ -40,7 +40,7 @@
       </header>
       <section class="train-input">
         <div class="container">
-          <form action="" method="post">
+          <form class="myForm">
             <div class="form-row">
               <div class="col-6">
                 <div class="form-group">
@@ -75,16 +75,18 @@
                 <div class="form-group">
                   <label for="depart-frequency">Frequency of Departures</label>
                   <input
-                    type="time"
+                    type="number"
                     class="form-control"
                     id="depart-frequency"
-                    placeholder="name@example.com"
+                    placeholder="15 minutes"
                   />
                 </div>
               </div>
             </div>
             <div class="form-row justify-content-center">
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary sub-btn">
+                Submit
+              </button>
             </div>
           </form>
         </div>
